@@ -1,0 +1,26 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 588px;
+}
+
+.about-img {
+    max-width: 300px;
+}
+
+.about-title {
+    width: 370px;
+    height: 90px;
+}
+
+.about-text {
+    width: 430px;
+    height: 96px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}

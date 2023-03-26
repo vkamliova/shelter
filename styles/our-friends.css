@@ -1,0 +1,78 @@
+.our-friends {
+    background-color: rgba(246, 246, 246, 1);
+    height: 877px;
+}
+
+.our-friends-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-friends-title {
+    width: 410px;
+    height: 90px;
+    text-align: center;
+}
+
+.our-friends-list-conteiner {
+    display: flex;
+    width: 1280px;
+    height: 435px;
+}
+
+.our-friends-list {
+    display: flex;
+}
+
+.our-friends-link {
+    background-color: #FAFAFA;
+    width: 270px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0;
+}
+
+.our-friends-item {
+    list-style-type: none;
+}
+
+.card-title {
+    width: 83px;
+    height: 23px;
+    left: 94px;
+    top: 300px;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+}
+
+.our-friends-btn {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    background-color: #FAFAFA;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
+.our-friends-get-btn {
+    width: 261px;
+    height: 52px;
+    background: #F1CDB3;
+    border: none;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}

@@ -1,0 +1,115 @@
+@import url(./header.css);
+@import url(./not-only.css);
+@import url(./about.css);
+@import url(./our-friends.css);
+@import url(./help.css);
+@import url(./in-addition.css);
+@import url(./footer.css);
+
+@import url(./);
+
+@font-face {
+  font-family: "GeorgiaBoldItalic";
+  src: url(../fonts/georgia/georgia-bold-italic.ttf);
+}
+
+@font-face {
+  font-family: "GgeorgiaBold";
+  src: url(../fonts/georgia/georgia-bold.ttf);
+}
+
+@font-face {
+  font-family: "GeorgiaItalic";
+  src: url(../fonts/georgia/georgia-italic.ttf);
+}
+
+@font-face {
+  font-family: "GeorgiaRegular";
+  src: url(../fonts/georgia/georgia-regular.ttf);
+}
+
+@font-face {
+  font-family: "ArialBlack";
+  src: url(../fonts/arial/arial-black.ttf);
+}
+
+@font-face {
+  font-family: "ArialBoldItalic";
+  src: url(../fonts/arial/arial-bold-italic.ttf);
+}
+
+@font-face {
+  font-family: "ArialBold";
+  src: url(../fonts/arial/arial-bold.ttf);
+}
+
+@font-face {
+  font-family: "ArialItalic";
+  src: url(../fonts/arial/arial-italic.ttf);
+}
+
+@font-face {
+  font-family: "ArialNarrowBoldItalic";
+  src: url(../fonts/arial/arial-narrow-bold-italic.ttf);
+}
+
+@font-face {
+  font-family: "ArialNarrowBold";
+  src: url(../fonts/arial/arial-narrow-bold.ttf);
+}
+
+@font-face {
+  font-family: "ArialNarrowItalic";
+  src: url(../fonts/arial/arial-narrow-italic.ttf);
+}
+
+@font-face {
+  font-family: "ArialNarrow";
+  src: url(../fonts/arial/arial-narrow.ttf);
+}
+
+@font-face {
+  font-family: "ArialRregular";
+  src: url(../fonts/arial/arial-regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-size: 15px;
+  line-height: 160%;
+  color: #545454;
+  /* overflow-x: hidden; */
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+h2 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 100px;
+  cursor: pointer;
+  justify-content: center;
+}

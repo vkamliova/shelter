@@ -1,0 +1,25 @@
+.help {
+    height: 611px;
+}
+
+.help-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-content {
+    width: 165px;
+    height: 113px;
+}
+
+h4 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: 0.06em;
+}

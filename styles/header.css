@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    max-width: 1280px;
+    width: 100vw;
+    margin-top: 20px;
+}
+
+.logo-name {
+    font-size: 31px;
+    line-height: 110%;
+    color: rgba(241, 205, 179, 1);
+    margin-bottom: 0;
+    letter-spacing: 0.11em;
+}
+
+.header-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin: 8px 0;
+    text-align: center;
+}
+
+.navigation-list {
+    display: flex;
+}
+
+.navigation-item {
+    list-style-type: none;
+}
+
+.navigation-link {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+}

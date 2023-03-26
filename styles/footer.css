@@ -1,0 +1,30 @@
+.footer {
+    background-image: url(../assets/images/footer.png);
+    background-size: cover;
+    height: 350px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center
+}
+
+.footer-title {
+    color: #FFFFFF;
+}
+
+.footer-text {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.footer-img {
+    max-width: 300px;
+    left: calc(50% - 300px/2 + 450px);
+    top: 0px;
+}
