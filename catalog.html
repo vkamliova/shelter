@@ -5,120 +5,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cozy House</title>
+    <title>Our pets</title>
     <link rel="shortcut icon" href="./assets/images/start-screen-puppy.png">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body>
-    <header class="container" id="home">
-        <div class="header">
-            <div class="logo">
-                <p class="logo-name">Cozy House</p>
-                <p class="header-text">Shelter for pets in Boston</p>
-            </div>
-            <nav class="header-navigation navigation header-navigation-active">
-                <ul class="navigation-list">
-                    <li class="navigation-item">
-                        <a href="#about" class="navigation-link">About the shelter</a>
+<body class="page">
+    <div class="overlay"></div>
+    <header class="container">
+        <div class="header-c">
+            <a href="./index.html" class="logo-c">
+                <p class="logo-name-c">Cozy House</p>
+                <p class="header-text-c">Shelter for pets in Boston</p>
+            </a>
+            <nav class="header-navigation-c navigation header-navigation-active">
+                <ul class="navigation-list-c">
+                    <li class="navigation-item-c">
+                        <a href="./index.html" class="navigation-link-c">About the shelter</a>
                     </li>
-                    <li class="navigation-item">
-                        <a href="#our-pets" class="navigation-link">Our pets</a>
+                    <li class="navigation-item-c" id="navigation-item-c-active">
+                        <a href="" class="navigation-link-c">Our pets</a>
                     </li>
-                    <li class="navigation-item">
-                        <a href="#help-the-shelte" class="navigation-link">Help the shelter</a>
+                    <li class="navigation-item-c">
+                        <a href="./index.html#help-the-shelte" class="navigation-link-c">Help the shelter</a>
                     </li>
-                    <li class="navigation-item">
-                        <a href="#contacts" class="navigation-link">Contacts</a>
+                    <li class="navigation-item-c">
+                        <a href="#contacts" class="navigation-link-c">Contacts</a>
                     </li>
                 </ul>
             </nav>
+            <div class="header-burger-c burger">
+                <span class="burger-line-c"></span>
+                <span class="burger-line-c"></span>
+                <span class="burger-line-c"></span>
+            </div>
         </div>
     </header>
     <main class="main">
-        <section class="our-friends" id="our-pets">
-            <div class="our-friends-conteiner container">
-                <h2 class="our-friends-title title">Our friends who are looking for a house</h2>
-                <div class="our-friends-list-conteiner">
-                    <ul class="our-friends-list">
-                        <li class="our-friends-item img-gardens">
-                            <div class="our-friends-link card">
-                                <img src="./assets/images/pets-katrine.png" alt="Cat Katrine" class="card-img">
+        <section class="our-friends-c" id="our-pets">
+            <div class="our-friends-c-conteiner container">
+                <h1 class="our-friends-c-title title">Our friends who<br>are looking for a house</h1>
+                <div class="our-friends-c-list-conteiner">
+                    <ul class="our-friends-c-list">
+                        <li class="our-friends-c-item img-gardens">
+                            <div class="our-friends-c-link card">
+                                <img src="./assets/images/pets-katrine.png" alt="Cat Katrine" id="katrine"
+                                    class="card-img">
                                 <h3 class="card-title">Katrine</h3>
-                                <button class="our-friends-btn button">Learn more</button>
+                                <button class="our-friends-c-btn button">Learn more</button>
                             </div>
                         </li>
-                        <li class="our-friends-item img-gardens">
-                            <div class="our-friends-link card">
+                        <li class="our-friends-c-item img-gardens" id="jennifer-c">
+                            <div class="our-friends-c-link card">
                                 <img src="./assets/images/pets-jennifer.png" alt="Dog Jennifer" class="card-img">
                                 <h3 class="card-title">Jennifer</h3>
-                                <button class="our-friends-btn button">Learn more</button>
+                                <button class="our-friends-c-btn button">Learn more</button>
                             </div>
                         </li>
-                        <li class="our-friends-item img-lawn">
-                            <div class="our-friends-link card">
+                        <li class="our-friends-c-item img-lawn" id="woody-c">
+                            <div class="our-friends-c-link card">
                                 <img src="./assets/images/pets-woody.png" alt="Dog Woody" class="card-img">
                                 <h3 class="card-title">Woody</h3>
-                                <button class="our-friends-btn button">Learn more</button>
+                                <button class="our-friends-c-btn button">Learn more</button>
                             </div>
                         </li>
-                        <li class="our-friends-item img-lawn">
-                            <div class="our-friends-link card">
+                        <li class="our-friends-c-item img-lawn" id="sophia-c">
+                            <div class="our-friends-c-link card">
                                 <img src="./assets/images/pets-katrine-1.png" alt="Dog Sophia" class="card-img">
                                 <h3 class="card-title">Sophia</h3>
-                                <button class="our-friends-btn button">Learn more</button>
+                                <button class="our-friends-c-btn button">Learn more</button>
                             </div>
                         </li>
-                        <li class="our-friends-item img-lawn">
-                            <div class="our-friends-link card">
+                        <li class="our-friends-c-item img-lawn" id="timmy-c">
+                            <div class="our-friends-c-link card">
                                 <img src="./assets/images/pets-timmy.png" alt="Cat Timmy" class="card-img">
                                 <h3 class="card-title">Timmy</h3>
-                                <button class="our-friends-btn button">Learn more</button>
+                                <button class="our-friends-c-btn button">Learn more</button>
                             </div>
                         </li>
-                        <li class="our-friends-item img-lawn">
-                            <div class="our-friends-link card">
+                        <li class="our-friends-c-item img-lawn" id="charly-c">
+                            <div class="our-friends-c-link card">
                                 <img src="./assets/images/pets-charly.png" alt="Dog Charly" class="card-img">
                                 <h3 class="card-title">Charly</h3>
-                                <button class="our-friends-btn button">Learn more</button>
+                                <button class="our-friends-c-btn button">Learn more</button>
                             </div>
                         </li>
-                        <li class="our-friends-item img-lawn">
-                            <div class="our-friends-link card">
-                                <img src="./assets/images/pets-woody.png" alt="Dog Woody" class="card-img">
-                                <h3 class="card-title">Woody</h3>
-                                <button class="our-friends-btn button">Learn more</button>
+                        <li class="our-friends-c-item img-lawn" id="scarlett-c">
+                            <div class="our-friends-c-link card">
+                                <img src="./assets/images/pets-scarlet.png" alt="Dog Scarlett" class="card-img">
+                                <h3 class="card-title">Scarlett</h3>
+                                <button class="our-friends-c-btn button">Learn more</button>
                             </div>
                         </li>
-                        <li class="our-friends-item img-lawn">
-                            <div class="our-friends-link card">
-                                <img src="./assets/images/pets-woody.png" alt="Dog Woody" class="card-img">
-                                <h3 class="card-title">Woody</h3>
-                                <button class="our-friends-btn button">Learn more</button>
+                        <li class="our-friends-c-item img-lawn" id="fraddie-c">
+                            <div class="our-friends-c-link card">
+                                <img src="./assets/images/pets-fraddie.png" alt="Cat Fraddie" class="card-img">
+                                <h3 class="card-title">Fraddie</h3>
+                                <button class="our-friends-c-btn button">Learn more</button>
                             </div>
                         </li>
                     </ul>
                 </div>
+                <div class="buttons-c">
+                    <div class="button-c disabled">&lt;&lt;</div>
+                    <div class="button-c disabled">&lt;</div>
+                    <div class="button-c button-c-1">1</div>
+                    <div class="button-c">></div>
+                    <div class="button-c">>></div>
+                </div>
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <div class="footer__container container">
-            <div class="footer__left">
-                <h2>Lorem, ipsum dolor.</h2>
-                <a href="mailto:mail@htmlacademy.ru">Напишите нам</a>
-                <a href="+136745677554">+13 674 567 75 54</a>
+    <footer class="footer" id="contacts">
+        <div class="footer-container container">
+            <div class="footer-content">
+                <div class="footer-left footer-cont">
+                    <h2 class="footer-title">For questions and suggestions</h2>
+                    <div class="footer-text">
+                        <img src="./assets/icons/icon-email.svg" alt="email">
+                        <a class="footer-text" href="mailto:email@shelter.com">email@shelter.com</a>
+                    </div>
+                    <div class="footer-text">
+                        <img src="./assets/icons/icon-phone.svg" alt="phone">
+                        <a class="footer-text" href="tel:+136745677554">+13 674 567 75 54</a>
+                    </div>
+                </div>
+                <div class="footer-center footer-cont">
+                    <h2 class="footer-title">We are waiting for your visit</h2>
+                    <div class="footer-text">
+                        <img src="./assets/icons/icon-marker.svg" alt="">
+                        <a class="footer-text" target="_blank"
+                            href="https://www.google.com/maps/search/1+Central+Street,+Boston+(entrance+from+the+store)/@42.3596508,-71.0604431,19z">1
+                            Central Street, Boston (entrance from the store)</a>
+                    </div>
+                    <div class="footer-text">
+                        <img src="./assets/icons/icon-marker.svg" alt="">
+                        <a class="footer-text adr" target="_blank"
+                            href="https://www.google.com/maps/search/18+South+Park,+London+/@51.4831756,-0.3837205,10z/data=!3m1!4b1">18
+                            South Park, London </a>
+                    </div>
+                </div>
             </div>
-            <div class="">
-                <h2>Lorem, ipsum dolor.</h2>
-                <a href="">Напишите нам</a>
-                <a href="">Напишите нам</a>
-            </div>
-            <div class="">
-                <img src="./assets/images/footer-puppy.png" alt="Dog">
-            </div>
+            <img src="./assets/images/footer-puppy.png" alt="Dog" class="footer-img">
         </div>
     </footer>
+    <script src="./index-catalog.js"></script>
 </body>
 
 </html>

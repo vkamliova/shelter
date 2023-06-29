@@ -10,20 +10,21 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body>
+<body class="page">
+    <div class="overlay"></div>
     <header class="container" id="home">
         <div class="header">
-            <div class="logo">
+            <a href="" class="logo">
                 <p class="logo-name">Cozy House</p>
                 <p class="header-text">Shelter for pets in Boston</p>
-            </div>
+            </a>
             <nav class="header-navigation navigation header-navigation-active">
                 <ul class="navigation-list">
                     <li class="navigation-item">
-                        <a href="#about" class="navigation-link">About the shelter</a>
+                        <a href="" class="navigation-link">About the shelter</a>
                     </li>
                     <li class="navigation-item">
-                        <a href="#our-pets" class="navigation-link">Our pets</a>
+                        <a href="./catalog.html" class="navigation-link">Our pets</a>
                     </li>
                     <li class="navigation-item">
                         <a href="#help-the-shelte" class="navigation-link">Help the shelter</a>
@@ -33,6 +34,11 @@
                     </li>
                 </ul>
             </nav>
+            <div class="header-burger burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
         </div>
     </header>
 
@@ -42,25 +48,28 @@
                 <h1 class="not-only-title">Not only people need a house</h1>
                 <p class="not-only-text">We offer to give a chance to a little and nice puppy with an extremely wide and
                     open heart. He or she will love you more than anybody else in the world, you will see!</p>
-                <button class="not-only-btn button">Make a friend</button>
+                <form action="#our-pets">
+                    <button class="not-only-btn button">Make a friend</button>
+                </form>
             </div>
             <img src="./assets/images/start-screen-puppy.png" alt="leafs" class="not-only-img">
         </div>
     </section>
-
     <section class="container about-container" id="about">
         <img src="./assets/images/about-pets.png" alt="Cat and dog" class="about-img">
         <div class="about-wrapper">
             <h2 class="about-title title">About the shelter “Cozy House”</h2>
             <p class="about-text text">
-                Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find
+                Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will
+                find
                 a family. The others will continue to live with us and will be waiting for a lucky chance to become
                 dearly loved.
             </p>
             <p class="about-text text">
                 We feed our wards with the best food and make sure that they do not get sick, feel comfortable
                 (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various
-                skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they
+                skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals,
+                they
                 become attached to the pets and would hardly ever leave them alone.
             </p>
         </div>
@@ -68,18 +77,20 @@
 
     <section class="our-friends" id="our-pets">
         <div class="our-friends-conteiner container">
-            <h2 class="our-friends-title title">Our friends who are looking for a house</h2>
+            <h2 class="our-friends-title title">Our friends who <br> are looking for a house</h2>
             <div class="our-friends-list-conteiner">
-                <img src="./assets/icons/button_arrow.svg" alt="">
+                <div class="left">
+                    <img src="./assets/icons/arrow.svg" alt="left">
+                </div>
                 <ul class="our-friends-list">
                     <li class="our-friends-item img-gardens">
-                        <div class="our-friends-link card">
+                        <div class="our-friends-link card" id="katrine">
                             <img src="./assets/images/pets-katrine.png" alt="Cat Katrine" class="card-img">
                             <h3 class="card-title">Katrine</h3>
                             <button class="our-friends-btn button">Learn more</button>
                         </div>
                     </li>
-                    <li class="our-friends-item img-gardens">
+                    <li class="our-friends-item img-gardens" id="jennifer">
                         <div class="our-friends-link card">
                             <img src="./assets/images/pets-jennifer.png" alt="Dog Jennifer" class="card-img">
                             <h3 class="card-title">Jennifer</h3>
@@ -87,20 +98,25 @@
                         </div>
                     </li>
                     <li class="our-friends-item img-lawn">
-                        <div class="our-friends-link card">
+                        <div class="our-friends-link card" id="woody">
                             <img src="./assets/images/pets-woody.png" alt="Dog Woody" class="card-img">
                             <h3 class="card-title">Woody</h3>
                             <button class="our-friends-btn button">Learn more</button>
                         </div>
                     </li>
                 </ul>
-                <img src="./assets/icons/button_arrow(1).svg" alt="">
+                <div class="right">
+                    <img src="./assets/icons/arrow.svg" alt="right">
+                </div>
             </div>
-            <button class="our-friends-get-btn button">Get to know the rest</button>
+            <form action="./catalog.html">
+                <button class="our-friends-get-btn button">Get to know the rest</button>
+            </form>
         </div>
     </section>
-    <section class="help container">
-        <h2>How you can help our shelter</h2>
+
+    <section class="help container" id="help-the-shelte">
+        <h2 class="help-title">How you can help <br> our shelter</h2>
         <div class="help-wrapper">
             <div class="help-content">
                 <img class="help-content-img" src="./assets/icons/icon-pet-food-1.svg" alt="Pet food">
@@ -140,7 +156,8 @@
             </div>
         </div>
     </section>
-    <section class="in-addition" id="contacts">
+
+    <section class="in-addition">
         <div class="container in-addition-container">
             <img src="./assets/images/donation-dog.png" alt="Dog" class="in-addition-img">
             <div class="in-addition-wrapper">
@@ -148,33 +165,54 @@
                 <p class="in-addition-bank text">
                     Name of the bank / Type of bank account
                 </p>
-                <div class="credit-card">8380 2880 8028 8791 7435</div>
+                <a href="" class="credit-card">
+                    <img src="./assets/icons/credit-card.svg" alt="card">
+                    <p> 8380 2880 8028 8791 7435</p>
+                </a>
                 <p class="credit-card-content">
-                    Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at
-                    libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et
+                    Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum
+                    at
+                    libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum
+                    et
                     malesuada fames ac ante ipsum primis in faucibus. </p>
             </div>
         </div>
     </section>
-    <footer class="footer">
+
+    <footer class="footer" id="contacts">
         <div class="footer-container container">
-            <div class="footer-left">
-                <h2 class="footer-title">For questions and suggestions</h2>
-                <a class="footer-text" href="mailto:email@shelter.com">email@shelter.com</a>
-                <a class="footer-text" href="tel:+136745677554">+13 674 567 75 54</a>
-            </div>
-            <div class="footer-center">
-                <h2 class="footer-title">We are waiting for your visit</h2>
-                <a class="footer-text"
-                    href="https://www.google.com/maps/search/1+Central+Street,+Boston+(entrance+from+the+store)/@42.3596508,-71.0604431,19z">1
-                    Central Street, Boston (entrance from the store)</a>
-                <a class="footer-text"
-                    href="https://www.google.com/maps/search/18+South+Park,+London+/@51.4831756,-0.3837205,10z/data=!3m1!4b1">18
-                    South Park, London </a>
+            <div class="footer-content">
+                <div class="footer-left footer-cont">
+                    <h2 class="footer-title">For questions and suggestions</h2>
+                    <div class="footer-text">
+                        <img src="./assets/icons/icon-email.svg" alt="email">
+                        <a class="footer-text" href="mailto:email@shelter.com">email@shelter.com</a>
+                    </div>
+                    <div class="footer-text">
+                        <img src="./assets/icons/icon-phone.svg" alt="phone">
+                        <a class="footer-text" href="tel:+136745677554">+13 674 567 75 54</a>
+                    </div>
+                </div>
+                <div class="footer-center footer-cont">
+                    <h2 class="footer-title">We are waiting for your visit</h2>
+                    <div class="footer-text">
+                        <img src="./assets/icons/icon-marker.svg" alt="">
+                        <a class="footer-text" target="_blank"
+                            href="https://www.google.com/maps/search/1+Central+Street,+Boston+(entrance+from+the+store)/@42.3596508,-71.0604431,19z">1
+                            Central Street, Boston (entrance from the store)</a>
+                    </div>
+                    <div class="footer-text">
+                        <img src="./assets/icons/icon-marker.svg" alt="">
+                        <a class="footer-text adr" target="_blank"
+                            href="https://www.google.com/maps/search/18+South+Park,+London+/@51.4831756,-0.3837205,10z/data=!3m1!4b1">18
+                            South Park, London </a>
+                    </div>
+                </div>
             </div>
             <img src="./assets/images/footer-puppy.png" alt="Dog" class="footer-img">
         </div>
     </footer>
+    <script src="./index.js"></script>
 </body>
 
 </html>

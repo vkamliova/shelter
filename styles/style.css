@@ -6,7 +6,8 @@
 @import url(./in-addition.css);
 @import url(./footer.css);
 
-@import url(./);
+@import url(./header-catalog.css);
+@import url(.//our-friends-catalog.css);
 
 @font-face {
   font-family: "GeorgiaBoldItalic";
@@ -73,6 +74,14 @@
   src: url(../fonts/arial/arial-regular.ttf);
 }
 
+* {
+  transition: all 0.2s linear;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -80,7 +89,17 @@ body {
   font-size: 15px;
   line-height: 160%;
   color: #545454;
-  /* overflow-x: hidden; */
+}
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 a,
@@ -90,7 +109,6 @@ a:visited {
 }
 
 .container {
-  margin: 0 auto;
   max-width: 1280px;
 }
 
@@ -100,7 +118,6 @@ h2 {
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
-  display: flex;
   align-items: center;
   letter-spacing: 0.06em;
 }
@@ -112,4 +129,33 @@ h2 {
   border-radius: 100px;
   cursor: pointer;
   justify-content: center;
+}
+
+.button:hover {
+  background-color: #FDDCC4;
+  transition: 0.5s;
+}
+
+.button:active {
+  background-color: #fce0cc;
+  transform: scale(98%);
+  transition: 0.5s;
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    align-items: center;
+    letter-spacing: 0.06em;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
 }
